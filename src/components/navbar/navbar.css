@@ -1,0 +1,115 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.navbar img {
+    width: 80px;
+    border-radius: 50%;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #5dd5fa 0.36%, #0c8ffa 102.36%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect .connect-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.anchor-list{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-open{
+    display: none;
+}
+.nav-mob-close{
+    display: none;
+}
+
+@media(max-width:768px){
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 270px;
+        width: 20px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #353232;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 375px) {
+    .navbar {
+        margin: 10px 20px;
+    }
+
+    .nav-connect {
+        display: block;
+    }
+
+    .nav-mob-open {
+        right: 15px;
+    }
+
+    .nav-mob-close {
+        top: 20px;
+        left: 230px;
+        width: 25px;
+    }
+    .nav-connect {
+        display: none;
+    }
+}
