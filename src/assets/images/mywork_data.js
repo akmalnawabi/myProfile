@@ -1,6 +1,6 @@
 import pharmacy from './pharmacy.jpg'
 import project2_img from './bank.jpg'
-import project3_img from './project_3.svg'
+import ims from './Capture2.PNG'
 import project4_img from './project_4.svg'
 import project5_img from './project_5.svg'
 import project6_img from './project_6.svg'
@@ -21,7 +21,8 @@ const mywork_data = [
   {
     w_no: 3,
     w_name: "Web design",
-    w_img: project3_img,
+    w_img: ims,
+    href: "https://shop-ims-django.onrender.com",
   },
   {
     w_no: 4,
