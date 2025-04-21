@@ -1,6 +1,6 @@
 import pharmacy from './pharmacy.jpg'
 import project2_img from './bank.jpg'
-import ims from './Capture2.PNG'
+import ims from './Capture2.jpg'
 import project4_img from './project_4.svg'
 import project5_img from './project_5.svg'
 import project6_img from './project_6.svg'
