@@ -1,8 +1,8 @@
 import pharmacy from './pharmacy.jpg'
 import project2_img from './bank.jpg'
 import ims from './Capture2.jpg'
-import project4_img from './project_4.svg'
-import project5_img from './project_5.svg'
+import women from './wph.jpeg'
+import realestate from './real.jpeg'
 import project6_img from './project_6.svg'
 
 const mywork_data = [
@@ -27,12 +27,14 @@ const mywork_data = [
   {
     w_no: 4,
     w_name: "Web design",
-    w_img: project4_img,
+    w_img: women,
+    href: "https://wph-fund.vercel.app/",
   },
   {
     w_no: 5,
     w_name: "Web design",
-    w_img: project5_img,
+    w_img: realestate,
+    href: "https://real-estate-react-five-wheat.vercel.app/",
   },
   {
     w_no: 6,
