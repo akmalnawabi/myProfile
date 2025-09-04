@@ -1,4 +1,4 @@
-import pharmacy from './pharmacy.jpg'
+import carpet from './carpet.png'
 import project2_img from './bank.jpg'
 import ims from './Capture2.jpg'
 import women from './wph.jpeg'
@@ -9,8 +9,8 @@ const mywork_data = [
   {
     w_no: 1,
     w_name: "Web design",
-    w_img: pharmacy,
-    href: "https://akmal001007.github.io/pharmacy/",
+    w_img: carpet,
+    href: "https://aghanproduct-frontend.onrender.com/",
   },
   {
     w_no: 2,

@@ -2,7 +2,6 @@ import React from 'react';
 import './hero.css';
 import me from '../../assets/images/me.jpeg'
 import resume from '../../assets/images/Akmal CV.pdf'
-import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
