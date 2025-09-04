@@ -16,7 +16,7 @@ const mywork_data = [
     w_no: 2,
     w_name: "Web design",
     w_img: project2_img,
-    href: "https://github.com/akmal001007/newBankingMethod",
+    href: "https://new-banking-method.vercel.app/",
   },
   {
     w_no: 3,
