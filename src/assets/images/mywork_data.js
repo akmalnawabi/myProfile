@@ -3,7 +3,8 @@ import project2_img from './bank.jpg'
 import ims from './Capture2.jpg'
 import women from './wph.jpeg'
 import realestate from './real.jpeg'
-import project6_img from './project_6.svg'
+import garson from './garson.png'
+
 
 const mywork_data = [
   {
@@ -39,7 +40,8 @@ const mywork_data = [
   {
     w_no: 6,
     w_name: "Web design",
-    w_img: project6_img,
+    w_img: garson,
+    href: "https://milionar-order-system.vercel.app/",
   },
 ];
  
